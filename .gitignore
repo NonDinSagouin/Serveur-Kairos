@@ -43,10 +43,10 @@ $RECYCLE.BIN/
 
 ##### Composer
 composer.phar
-/vendor/
+/www/vendor/
 
 ##### Node
-/node_modules
+/www/node_modules
 
 ##### Credentials
 /storage/*.key
