@@ -1,0 +1,9 @@
+{
+    "name": "kairos",
+    "version": "1.0.0",
+    "description": "Kairos",
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "^3.6.0"
+    }
+  }

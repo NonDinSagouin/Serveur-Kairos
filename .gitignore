@@ -1,0 +1,55 @@
+##### Windows
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+##### Linux
+*~
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+##### Backup
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Log file - the following switch allows to specify the file that will be
+# used to write all messages from simulation:  -l <filename>
+*.log
+
+##### PuTTY
+# Private key
+*.ppk
+
+##### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+##### Composer
+composer.phar
+/vendor/
+
+##### Node
+/node_modules
+
+##### Credentials
+/storage/*.key
+.env
+.env.backup
+.env.production
