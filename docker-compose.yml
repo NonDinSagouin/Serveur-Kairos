@@ -1,5 +1,6 @@
 version: "3"
 services:
+
   nginx:
     build:
       context: .
@@ -20,7 +21,6 @@ services:
       - internal
     volumes:
       - ./www/:/var/www/html/
-      - ./logs/php.log:/var/log/fpm-php.www.log
     
 networks:
   internal:

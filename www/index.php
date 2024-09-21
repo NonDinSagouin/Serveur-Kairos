@@ -7,7 +7,7 @@
     // Autoloader de Composer
     require_once "vendor/autoload.php";
 
-    echo 'Bonjour ! Oui';
+    echo 'Bonjour ! Oudddi';
 
 ?>
 
