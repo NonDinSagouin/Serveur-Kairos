@@ -1,6 +1,9 @@
 # php/Dockerfile
 FROM php:fpm-alpine
 
+# Installer pdo_pgsql
+# RUN docker-php-ext-install pdo pdo_pgsql
+
 # Installer des extensions PHP nécessaires à Doctrine
 RUN apk add --no-cache $PHPIZE_DEPS \
     && apk add --no-cache git zip unzip \
