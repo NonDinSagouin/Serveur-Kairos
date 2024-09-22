@@ -1,12 +1,9 @@
 <?php
-    use Doctrine\ORM\Tools\Setup;
-    use Doctrine\ORM\EntityManager;
-    use Doctrine\ORM\Tools\SchemaTool;
-    use Doctrine\ORM\Mapping as ORM;
+require __DIR__ . '/base/AutoLoader.php';
+use app\Init;
+use base\DotEnv;
 
-    // Autoloader de Composer
-    require_once "vendor/autoload.php";
+(new DotEnv(__DIR__ . '/.env'))->load();
+Init::startApplication(__DIR__);
 
-    echo 'Bonjour ! Oudddi';
-
-?>
+// echo getenv('APP_ENV');
