@@ -39,7 +39,7 @@ class Router{
         }
 
         Application::$app->response->setStatusCode(404);
-        return $this->renderView("_404");
+        return $this->renderOnlyView("_404");
     }
 
     /**
@@ -116,14 +116,14 @@ class Router{
 
                     if (in_array($element, $this->loadedCSS)) { continue; }
 
-                    $link .= "<link rel='stylesheet' type='text/css' href=$fullRoot/$element />";
+                    $link .= "<link rel='stylesheet' type='text/css' href=$fullRoot/$element.css />";
                     array_push($this->loadedCSS, $element);
                 }
                 elseif ($type == 'js') {
 
                     if (in_array($element, $this->loadedJS)) { continue; }
 
-                    $link .= "<script src=$fullRoot/$element /></script>";
+                    $link .= "<script src=$fullRoot/$element.js /></script>";
                     array_push($this->loadedJS, $element);
                 }
 
