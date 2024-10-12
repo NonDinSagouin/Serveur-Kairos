@@ -16,26 +16,31 @@
     </div>
 
     <div class="box">
+        <i class="fa-solid fa-money-check-dollar"></i>
         <h1>Chiffre d'affaires</h1>
         <p>50 000 €</p>
     </div>
 
     <div class="box">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
         <h1>Factures payées</h1>
         <p>40 000 €</p>
     </div>
 
     <div class="box">
+        <i class="fa-solid fa-file-invoice-dollar"></i>
         <h1>Factures en attente</h1>
         <p>10 000 €</p>
     </div>
 
     <div class="box">
+        <i class="fa-solid fa-cash-register"></i>
         <h1>Charges</h1>
         <p>2 000 €</p>
     </div>
 
     <div class="box">
+        <i class="fa-solid fa-receipt"></i>
         <h1>Dépences</h1>
         <p>5 000 €</p>
     </div>

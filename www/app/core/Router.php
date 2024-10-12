@@ -4,7 +4,6 @@ use InvalidArgumentException;
 
 class Router{
 
-    use traits\applyLayout;
     use traits\applyControllers;
     use traits\applyLib;
 
@@ -57,7 +56,6 @@ class Router{
 
         $fullView = str_replace("{{content}}", $viewContent, $fullView);
         $fullView = $this->applyControllers($fullView, $controller);
-        $fullView = $this->applyLayout($fullView);
         $fullView = $this->applyLib($fullView);
 
         $this->clearView($fullView);
