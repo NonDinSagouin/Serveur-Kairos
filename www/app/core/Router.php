@@ -96,7 +96,7 @@ class Router{
      * @return string
      *
      */
-    private function apply(string $balise, array $array, string $fullView, string $type, string $lib=null) : string{
+    private function apply(string $balise, array $array, string $fullView, string $type, string|null $lib = null) : string{
 
         $link = '';
 
@@ -140,6 +140,7 @@ class Router{
         include_once Application::$rootDIR . "/app/views/$view/$view.php";
         return ob_get_clean();
     }
+
     private function layoutContent() : string{
        
         ob_start();

@@ -4,6 +4,4 @@ use app\Init;
 use base\DotEnv;
 
 (new DotEnv(__DIR__ . '/.env'))->load();
-Init::startApplication(__DIR__);
-
-// echo getenv('APP_ENV');
+return Init::startApplication(__DIR__);

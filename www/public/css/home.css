@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Linéales', sans-serif;
 }
 
 .container {
@@ -20,4 +20,50 @@ body {
     padding: 20px;
     width: 300px;
     border-radius: 5px;
+}
+
+.floatR{
+    float: right;
+}
+
+.blue{
+    color: #016fe6;
+}
+.green{
+    color: #01e630;
+}
+.orange{
+    color: #e66c01;
+}
+.purple{
+    color: #a901e6;
+}
+.red{
+    color: #e60101;
+}
+
+.bgBlue{
+    background: #ebf5ff;
+}
+.bgGreen{
+    background: #edffeb;
+}
+.bgOrange{
+    background: #fff5eb;
+}
+.brPurple{
+    background: #f7ebff;
+}
+.brRed{
+    background: #ffebeb;
+}
+
+.pastille{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 20px;
+    font-size: 20px;
 }
